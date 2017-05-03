@@ -12,7 +12,7 @@ $_SESSION["username"] = "" . $_REQUEST["username"];
 $_SESSION["password"] = "" . $_REQUEST["password"];
 if ($_SESSION["username"] == "admin" && $_SESSION["password"] == "admin")
 {
-  header("Location: inventory.htm");
+  header("Location: inventory.php");
   exit();
 }
 else
